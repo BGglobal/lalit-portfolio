@@ -3,17 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lalit Nishad | Digital & Business Transformation</title>
-<meta name="description" content="Lalit Nishad — Digital Transformation and technology-enabled business transformation professional. PMO, ERP and SaaS implementation, process automation, dashboards and business analytics.">
+<title>Lalit Nishad | PMO & Digital Transformation</title>
+<meta name="description" content="Lalit Nishad — PMO and digital transformation for infrastructure and capital projects: governance, ERP and SaaS implementation, dashboards and workflow automation.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230f2340%22/><text x=%2250%22 y=%2267%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23ffffff%22 font-family=%22sans-serif%22 font-weight=%22700%22>LN</text></svg>">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lalit Nishad | Digital & Business Transformation">
+<meta property="og:title" content="Lalit Nishad | PMO & Digital Transformation">
 <meta property="og:description" content="Bridging business operations, project management and enterprise technology: ERP and SaaS implementation, workflow automation, dashboards and analytics.">
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Lalit Nishad","jobTitle":"Sr. Executive – ERP & Projects","worksFor":{"@type":"Organization","name":"Piramal Nextgen Industries Pvt. Ltd."},"url":"https://www.linkedin.com/in/lalitdnishad/","knowsAbout":["PMO","Process Design","Financial Governance","ERP Implementation","Google Apps Script","Workflow Automation","MIS Reporting","Vendor Management"]}
 </script>
@@ -95,6 +94,8 @@ section{padding:84px 0}
 
 /* projects */
 .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.project.featured{grid-column:span 2}
+.project.featured .thumb{aspect-ratio:auto;flex:1;min-height:190px}
 .project{display:flex;flex-direction:column;text-align:left;font:inherit;cursor:pointer;transition:transform .2s,border-color .2s,box-shadow .2s;padding:0;overflow:hidden}
 .project:hover,.project:focus-visible{transform:translateY(-3px);border-color:#b9c4d3;box-shadow:0 14px 34px rgba(15,35,64,.1);outline:none}
 .project .thumb{aspect-ratio:16/9;background:linear-gradient(135deg,var(--ink),#1f4f7a);display:grid;place-items:center;color:#fff;position:relative;overflow:hidden}
@@ -135,9 +136,7 @@ dialog::backdrop{background:rgba(15,35,64,.55);backdrop-filter:blur(3px)}
 .lightbox.open{display:grid}
 .lightbox img{max-height:92vh;border-radius:10px}
 
-/* charts / skills */
-.chart-card{height:340px;display:flex;flex-direction:column}
-.chart-card .chart{position:relative;flex:1;min-height:0;margin-top:8px}
+/* skills */
 .skill-groups{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .ways{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .ways .card h3{font-size:16px}
@@ -181,6 +180,7 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
 @media(max-width:560px){
   .wrap{padding:0 16px}
   .projects,.grid-3,.skill-groups,.ways,.steps{grid-template-columns:1fr}
+  .project.featured{grid-column:auto}
   .dlg-head,.dlg-body{padding-left:18px;padding-right:18px}
   section{padding:64px 0}
 }
@@ -203,9 +203,9 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
       <img class="avatar" src="photo.jpg" alt="Lalit Nishad" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'monogram',textContent:'LN'}))">
       <div><b>Lalit Nishad</b><small>Sr. Executive – ERP & Projects · Piramal Nextgen</small><br><span class="status">Open to new opportunities</span></div>
     </div>
-    <div class="eyebrow" style="margin-bottom:14px">Digital Transformation · Technology-Enabled Business Transformation</div>
-    <h1>I turn business operations into <em>systems that run themselves.</em></h1>
-    <p class="lead">Project management and business transformation professional with an Electrical Engineering background. I translate business requirements into technology-driven workflows, from ERP and SaaS rollouts to automation, dashboards and internal web apps.</p>
+    <div class="eyebrow" style="margin-bottom:14px">PMO & Digital Transformation · Infrastructure & Capital Projects</div>
+    <h1>I bring structure, systems and visibility to <em>complex projects.</em></h1>
+    <p class="lead">Electrical engineer with 3 years in project delivery and PMO across airport, BFSI and corporate fit-out projects. I set up the governance, roll out the ERP, and build the dashboards and internal tools that let teams run projects on facts instead of follow-ups.</p>
     <div class="actions">
       <a class="btn primary" href="#projects">See what I've built</a>
       <a class="btn" href="#contact">Get in touch</a>
@@ -225,9 +225,9 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
 </div></div>
 
 <section id="expertise"><div class="wrap">
-  <div class="section-head reveal"><div class="eyebrow">What I do</div><h2>Where business, projects and technology meet.</h2><p>Hands-on experience across project execution, PMO, ERP and SaaS implementation, process automation, business analytics and commercial operations. I manage cross-functional projects, coordinate vendors and stakeholders, and use automation and data to give the business better visibility of its operations.</p></div>
+  <div class="section-head reveal"><div class="eyebrow">What I do</div><h2>Where projects, process and technology meet.</h2><p>I manage cross-functional projects, translate business requirements into working systems, and use automation and data to give management better visibility.</p></div>
   <div class="grid-3">
-    <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div><h3>Strategy & Business Development</h3><p>Opportunity evaluation, business initiatives, proposals, commercial thinking and stakeholder alignment, giving management a structured basis for decisions.</p></div>
+    <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h3>Business Analysis</h3><p>Mapping how work actually flows today, gathering requirements from each department, and turning them into processes, system configuration and UAT.</p></div>
     <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div><h3>PMO & Process Design</h3><p>SOPs, approval hierarchies and governance frameworks, plus risk tracking and MIS reporting that leadership actually uses.</p></div>
     <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div><h3>ERP & Digital Transformation</h3><p>ERP/SaaS implementation (R'Dash): UAT, user training, adoption and new feature development across the organisation.</p></div>
     <div class="card reveal"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><h3>Financial & Contract Controls</h3><p>BOQ creation and verification, invoice lifecycle from PO to payment, budget and cost control, vendor contracts.</p></div>
@@ -279,20 +279,12 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
 <section id="skills" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
   <div class="section-head reveal"><div class="eyebrow">Skills & tools</div><h2>The toolkit.</h2></div>
   <div class="skill-groups">
-    <div class="card reveal"><h3>Strategy & Business</h3><span class="chip">Business Strategy</span><span class="chip">Business Development</span><span class="chip">Opportunity Evaluation</span><span class="chip">Proposals</span><span class="chip">Commercial Thinking</span><span class="chip">Stakeholder Alignment</span><span class="chip">Business Analysis</span></div>
-    <div class="card reveal"><h3>Digital Transformation</h3><span class="chip">Requirements → Workflows</span><span class="chip">Business Analytics</span><span class="chip">Process Digitization</span><span class="chip">Paper-to-Digital Workflows</span><span class="chip">Change Management</span><span class="chip">System Adoption</span><span class="chip">Workflow Design</span></div>
-    <div class="card reveal"><h3>PMO & Governance</h3><span class="chip">SOP Design</span><span class="chip">Approval Hierarchies</span><span class="chip">Risk Tracking</span><span class="chip">MIS Reporting</span><span class="chip">DPRs</span><span class="chip">Planning & Scheduling</span></div>
-    <div class="card reveal"><h3>Systems & Automation</h3><span class="chip">R'Dash ERP / SaaS</span><span class="chip">Google Apps Script</span><span class="chip">Google Sheets</span><span class="chip">Gemini AI</span><span class="chip">Power BI</span><span class="chip">HTML / CSS / JS</span><span class="chip">UAT & Training</span></div>
-    <div class="card reveal"><h3>Commercial & Contracts</h3><span class="chip">BOQ Creation & Verification</span><span class="chip">PO → Invoice → Payment</span><span class="chip">Budget & Cost Control</span><span class="chip">Vendor Negotiation</span><span class="chip">Contract Management</span></div>
-    <div class="card reveal"><h3>Domains</h3><span class="chip">Airport Infrastructure</span><span class="chip">C&I</span><span class="chip">MEP</span><span class="chip">Interior Fit-out</span><span class="chip">IT Infrastructure</span><span class="chip">BFSI</span><span class="chip">Industrial</span></div>
-    <div class="card reveal"><h3>Working style</h3><span class="chip">Problem Solving</span><span class="chip">Ownership</span><span class="chip">Cross-functional POC</span><span class="chip">Learning Agility</span><span class="chip">Adaptability</span></div>
-    <div class="card reveal"><h3>Languages</h3><span class="chip">English (Professional)</span><span class="chip">Hindi (Native)</span><span class="chip">Marathi (Native)</span></div>
+    <div class="card reveal"><h3>PMO & Governance</h3><span class="chip">SOP Design</span><span class="chip">Approval Hierarchies</span><span class="chip">Planning & Scheduling</span><span class="chip">Risk Tracking</span><span class="chip">MIS & DPRs</span><span class="chip">Stakeholder Coordination</span></div>
+    <div class="card reveal"><h3>Digital Transformation</h3><span class="chip">R'Dash ERP / SaaS</span><span class="chip">Requirements & UAT</span><span class="chip">User Training & Adoption</span><span class="chip">Process Digitization</span><span class="chip">Google Apps Script</span><span class="chip">Gemini AI</span><span class="chip">Power BI</span></div>
+    <div class="card reveal"><h3>Commercial & Contracts</h3><span class="chip">BOQ Creation & Verification</span><span class="chip">PO → Invoice → Payment</span><span class="chip">Budget & Cost Control</span><span class="chip">Vendor Onboarding & Negotiation</span></div>
+    <div class="card reveal"><h3>Domains</h3><span class="chip">Airport Infrastructure</span><span class="chip">MEP</span><span class="chip">C&I</span><span class="chip">Interior Fit-out</span><span class="chip">IT Infrastructure</span><span class="chip">BFSI</span></div>
   </div>
 
-  <div class="grid-2" style="margin-top:16px">
-    <div class="card chart-card reveal"><h3>Capability mix</h3><div class="chart"><canvas id="mix" aria-label="Capability mix chart"></canvas></div></div>
-    <div class="card chart-card reveal"><h3>Scope of ownership over time</h3><div class="chart"><canvas id="growth" aria-label="Scope of ownership chart"></canvas></div></div>
-  </div>
 </div></section>
 
 <section id="approach"><div class="wrap">
@@ -313,13 +305,14 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
     <div class="card reveal"><h3>Education</h3><ul>
       <li>B.E. – Electrical Engineering<small>St. Francis Institute of Technology, Mumbai · 2020–2023 · CGPA 7.87</small></li>
       <li>Diploma – Electrical Engineering<small>Pravin Patil College of Engineering & Technology · 2017–2020 · 85%</small></li>
+      <li>Languages<small>English (professional) · Hindi (native) · Marathi (native)</small></li>
     </ul></div>
   </div>
 </div></section>
 
 <section id="contact" style="padding-top:20px"><div class="wrap">
   <div class="contact reveal">
-    <div><div class="eyebrow">Let's talk</div><h2>Have a process that needs fixing?</h2><p>I'm looking for roles in digital transformation, business transformation, PMO and ERP / SaaS implementation, where technology changes how the business runs and the outcome can be measured.</p>
+    <div><div class="eyebrow">Let's talk</div><h2>Have a process that needs fixing?</h2><p>Open to consulting and PMO roles in digital transformation and infrastructure / capital projects advisory.</p>
       <div class="actions"><a class="btn" href="resume.pdf" download>Download résumé</a></div></div>
     <div class="links">
       <a href="mailto:lalitdnishad1@gmail.com">Email <span>lalitdnishad1@gmail.com</span></a>
@@ -330,7 +323,7 @@ footer .inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
   </div>
 </div></section>
 
-<footer><div class="wrap inner"><span>© <span id="year"></span> Lalit Nishad</span><span>Digital & Business Transformation</span></div></footer>
+<footer><div class="wrap inner"><span>© <span id="year"></span> Lalit Nishad</span><span>PMO & Digital Transformation</span></div></footer>
 
 <dialog id="dlg" aria-labelledby="dlgTitle">
   <div class="dlg-head">
@@ -450,23 +443,6 @@ const PROJECTS = [
     impact:'Reporting became a by-product of the data instead of a daily manual task.',
     stack:['Google Apps Script','Google Sheets','HTML/CSS/JS'],
     shots:[]
-  },
-  {
-    id:'site-records', tag:'Site operations', title:'Site Records Tracking System',
-    sub:'Paper-based site record-keeping turned into a live web and Excel tracking system.',
-    summary:'Moved paper-based site record-keeping into a live web app with Excel-ready tracking.',
-    glyph:'<path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/>',
-    facts:[['Used at','Project site'],['Built with','Apps Script · Sheets'],['Status','In production use']],
-    problem:'Site records were kept on paper, which made them slow to retrieve and impossible to analyse.',
-    built:'A web entry form backed by a structured tracking sheet, so records are captured once and stay available live and in Excel.',
-    features:[
-      'Structured web form for site entries',
-      'Live tracking sheet, exportable to Excel',
-      'Searchable history in place of paper files'
-    ],
-    impact:'Site records became instantly searchable and reportable.',
-    stack:['Google Apps Script','Google Sheets','HTML/CSS/JS'],
-    shots:[]
   }
 ];
 
@@ -474,8 +450,8 @@ const $ = s => document.querySelector(s);
 const svg = g => `<svg class="glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${g}</svg>`;
 
 // Cards
-$('#projectGrid').innerHTML = PROJECTS.map(p => `
-  <button class="card project reveal" data-id="${p.id}" aria-haspopup="dialog">
+$('#projectGrid').innerHTML = PROJECTS.map((p,i) => `
+  <button class="card project reveal${i===0?' featured':''}" data-id="${p.id}" aria-haspopup="dialog">
     <div class="thumb"><span class="badge">${p.tag}</span>${p.shots.length ? `<img src="${p.shots[0].src}" alt="" loading="lazy">` : svg(p.glyph)}</div>
     <div class="body"><h3>${p.title}</h3><p>${p.summary}</p><div class="more">View details →</div></div>
   </button>`).join('');
@@ -538,20 +514,6 @@ const co = new IntersectionObserver(es => es.forEach(e => {
 }), {threshold:.5});
 document.querySelectorAll('[data-count]').forEach(el => co.observe(el));
 
-// Charts
-if(window.Chart){
-  Chart.defaults.font.family = 'Inter, system-ui, sans-serif';
-  Chart.defaults.color = '#5b6778';
-  new Chart($('#mix'), {type:'doughnut',
-    data:{labels:['Strategy & Business','PMO & Governance','ERP & Digital Transformation','Commercial & Contracts','Automation & AI'],
-      datasets:[{data:[20,25,25,15,15],backgroundColor:['#0f2340','#0b7a6b','#3b6ea5','#5fb8a8','#a9bcd4'],borderColor:'#fff',borderWidth:2}]},
-    options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'right',labels:{boxWidth:10,boxHeight:10,padding:12}}}}});
-  new Chart($('#growth'), {type:'line',
-    data:{labels:[['Project','Coordinator'],['Project','Consultant'],['PMO'],['Sr. Exec','ERP & Projects']],
-      datasets:[{data:[2,4,7,9.5],borderColor:'#0b7a6b',backgroundColor:'rgba(11,122,107,.1)',fill:true,tension:.35,pointBackgroundColor:'#0b7a6b',pointRadius:5}]},
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{enabled:false}},
-      scales:{y:{beginAtZero:true,max:10,grid:{color:'#eef1f5'},ticks:{display:false},border:{display:false}},x:{grid:{display:false},ticks:{font:{size:11}}}}}});
-}
 </script>
 </body>
 </html>
